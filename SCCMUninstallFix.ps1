@@ -13,8 +13,9 @@ function Restore-CCMCache
 {
 # Locations of the installer files. These may need to be updated in the future.
 #
-    $sourceGenoPro = "\\dhw.wa.gov.au\appdata\PackageSource\Library\Applications\GenoPro\GenoPro 3.0.1.2"
-    $sourceHPECM = "\\dhw.wa.gov.au\appdata\PackageSource\Library\Applications\HPE\Content Manager 9.1.1002\MSI R2"
+    #$Repository = "" # -- the location of the repository, removed for public github repository due to security concerns.
+    $sourceGenoPro = "$Repository\GenoPro\GenoPro 3.0.1.2"
+    $sourceHPECM = "$Repository\HPE\Content Manager 9.1.1002\MSI R2"
 
 # Prompting for the effected user's asset/hostname.
 #
